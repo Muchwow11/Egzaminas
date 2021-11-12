@@ -1,0 +1,74 @@
+@import url(../../../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+.container-fluid {
+  padding: 0; }
+  .container-fluid header {
+    height: 100px;
+    background-color: #ffc107; }
+    .container-fluid header h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #FFFFFF;
+      padding-top: 20px; }
+  .container-fluid form {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80px; }
+    .container-fluid form input {
+      text-align: center;
+      font-size: 2em; }
+    .container-fluid form button {
+      margin-left: 25px;
+      font-size: 2em; }
+  .container-fluid article img {
+    max-width: 80%;
+    height: auto;
+    width: auto;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0; }
+  .container-fluid article h1 {
+    text-align: center;
+    padding-top: 80px; }
+  .container-fluid footer {
+    text-align: center;
+    margin-top: 100%;
+    background-color: #373b3e;
+    height: 100px; }
+    .container-fluid footer p {
+      color: #fff;
+      padding-top: 40px; }
+  .container-fluid .negeras {
+    display: none; }
+
+@media (max-width: 576px) {
+  .container-fluid header {
+    background-color: #ff2222; }
+    .container-fluid header h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #FFFFFF; }
+  .container-fluid form input {
+    text-align: center;
+    font-size: 2em;
+    height: 70px; }
+  .container-fluid form button {
+    margin: 0;
+    font-size: 2em; } }
+@media (min-width: 768px) {
+  .container-fluid header {
+    background-color: #373b3e; }
+    .container-fluid header h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #FFFFFF; }
+  .container-fluid form input {
+    height: 100px;
+    text-align: center;
+    font-size: 3em; }
+  .container-fluid form button {
+    margin-left: 60px;
+    font-size: 2.5em; } }
+
+/*# sourceMappingURL=Custom.css.map */

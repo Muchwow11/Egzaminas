@@ -1,0 +1,105 @@
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+.container-fluid {
+padding: 0;
+  header {
+    height: 100px;
+    background-color: #ffc107;
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #FFFFFF;
+      padding-top: 20px;
+    }
+  }
+  form{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80px;
+    input{
+      text-align: center;
+      font-size: 2em;
+    }
+    button {
+      margin-left: 25px;
+      font-size: 2em;
+    }
+  }
+  article{
+    img {
+      max-width: 80%;
+      height:auto;
+      width: auto;
+      margin: auto;
+      position: absolute;
+      top: 250px; left: 0; right: 0;
+    }
+
+    h1{
+      text-align: center;
+      padding-top: 80px;
+    }
+  }
+  footer{
+    text-align: center;
+    margin-top: 100%;
+    background-color: #373b3e;
+    height: 100px;
+    p{
+      color: #fff;
+      padding-top: 40px;
+    }
+  }
+  .negeras{
+    display: none;
+  }
+}
+
+@media (max-width: 576px){
+  .container-fluid {
+    header {
+      background-color: #ff2222;
+      h1 {
+        text-align: center;
+        font-size: 3em;
+        color: #FFFFFF;
+      }
+    }
+    form{
+      input{
+        text-align: center;
+        font-size: 2em;
+        height: 70px;
+      }
+      button{
+        margin: 0;
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .container-fluid {
+    header {
+      background-color: #373b3e;
+      h1 {
+        text-align: center;
+        font-size: 3em;
+        color: #FFFFFF;
+      }
+    }
+    form{
+      input{
+        height: 100px;
+        text-align: center;
+        font-size: 3em;
+      }
+      button{
+        margin-left: 60px;
+        font-size: 2.5em;
+      }
+    }
+  }
+}
+
+
