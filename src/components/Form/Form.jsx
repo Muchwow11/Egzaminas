@@ -5,10 +5,7 @@ const Form = () =>{
     const clearInput = () =>{
         document.getElementById("clear").value = ""
     };
-    const clearData = () =>{
-        setDog("")
-    }
-    const [clas,setClass] = useState("")
+    const [clase,setClass] = useState("")
     const [error,setError] = useState()
     const [dog,setDog] = useState('')
     const [uInput,setUInput] = useState()
@@ -34,7 +31,7 @@ const Form = () =>{
 
             )};
 
-    const dogs = <Article message={dog.message} status={dog.status} error={error} clas={clas}/>
+    const dogs = <Article message={dog.message} status={dog.status} error={error} clas={clase}/>
 
         console.log(dog)
     return(<div>
